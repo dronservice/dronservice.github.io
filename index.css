@@ -1,0 +1,16 @@
+.resolucion{
+  width: 99%;
+  text align: center;
+}
+@media (max-width: 767px){
+  .desktop{display:none;}
+  .tablet{display:none;}
+}
+ @media (max-width: 768px) and (max-width: 990px){
+     .desktop{display:none;}
+  .movil{display:none;}
+ }
+@media (max-width: 991px){
+  .tablet{display:none;}
+  .movil{display:none;}
+}
