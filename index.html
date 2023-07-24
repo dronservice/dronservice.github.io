@@ -23,14 +23,61 @@
     <meta property="og:title" content="Casa">
     <meta property="og:type" content="website">
 	<div class="resolucion">
-        <div class="desktop">
-            <h1>Esto es un ordenador</h1>
-        </div>
-        <div class="tablet">
-            <h1>Esto es un tablet</h1>
-        </div>
-        <div class="movil">
-            <h1>Esto es un movil</h1>
+      		  <div class="desktop">
+          	  	<h1>Esto es un ordenador</h1>
+       		 </div>
+       		 <div class="tablet">
+           		 <h1>Esto es un tablet</h1>
+       		 </div>
+      		  <div class="movil">
+          		  <h1>Esto es un movil</h1>
+		  </div>
+<style>
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}.resolucion {
+    width: 99%;
+    text-align: center;
+}
+}
+		</style>
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
   <body data-home-page="Casa.html" data-home-page-title="Casa" class="u-body u-xl-mode" data-lang="es"><header class="u-clearfix u-header u-sticky u-sticky-73ad u-header" id="sec-abd8"><a href="https://dronservice.github.io/" class="u-image u-logo u-image-1" data-image-width="1108" data-image-height="721">
       
@@ -128,7 +175,7 @@
         </div>
       </div></header>
 
-</div>
+
     </div>
 
 </body></html>
